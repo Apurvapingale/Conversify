@@ -3,7 +3,7 @@ from typing import Generator
 from groq import Groq
 
 
-st.set_page_config(page_icon="💬", layout="wide",page_title="QuikChat")
+st.set_page_config(page_icon="💬", layout="wide",page_title="Conversify")
 
 # Set dark theme by default
 st._config.set_option('theme.base', "dark")
@@ -22,7 +22,7 @@ def icon(emoji: str) -> None:
         )
 icon ("🔄")
 
-st.header("QuikChat", divider="rainbow", anchor=False)
+st.header("Conversify", divider="rainbow", anchor=False)
 
 
 
